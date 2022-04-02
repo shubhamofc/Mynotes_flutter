@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'home.dart';
 
 void main() => runApp(const MyApp());
 
@@ -7,15 +8,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Material(
-        child: Center(
-          // ignore: avoid_unnecessary_containers
-          child: Container(
-            child: const Text('Flutter 30 day course'),
-          ),
-        ),
-      ),
+  
+  
+     return MaterialApp(
+      home:HomePage(),
     );
   }
 }
